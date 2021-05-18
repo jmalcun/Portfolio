@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jmalcun/Portfolio/static/css/main.a10d2e26.chunk.css",
+    "main.js": "/jmalcun/Portfolio/static/js/main.64a9dd1f.chunk.js",
+    "main.js.map": "/jmalcun/Portfolio/static/js/main.64a9dd1f.chunk.js.map",
+    "runtime-main.js": "/jmalcun/Portfolio/static/js/runtime-main.1e2b5b62.js",
+    "runtime-main.js.map": "/jmalcun/Portfolio/static/js/runtime-main.1e2b5b62.js.map",
+    "static/js/2.811cf88b.chunk.js": "/jmalcun/Portfolio/static/js/2.811cf88b.chunk.js",
+    "static/js/2.811cf88b.chunk.js.map": "/jmalcun/Portfolio/static/js/2.811cf88b.chunk.js.map",
+    "index.html": "/jmalcun/Portfolio/index.html",
+    "static/css/main.a10d2e26.chunk.css.map": "/jmalcun/Portfolio/static/css/main.a10d2e26.chunk.css.map",
+    "static/js/2.811cf88b.chunk.js.LICENSE.txt": "/jmalcun/Portfolio/static/js/2.811cf88b.chunk.js.LICENSE.txt",
+    "static/media/JuanMalcunCV.4949873d.pdf": "/jmalcun/Portfolio/static/media/JuanMalcunCV.4949873d.pdf",
+    "static/media/styles.scss": "/jmalcun/Portfolio/static/media/unnamed.18336e69.jpg",
+    "static/media/down-chevron.92792dc8.svg": "/jmalcun/Portfolio/static/media/down-chevron.92792dc8.svg",
+    "static/media/fondo6.2fa1d9a0.jpg": "/jmalcun/Portfolio/static/media/fondo6.2fa1d9a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e2b5b62.js",
+    "static/js/2.811cf88b.chunk.js",
+    "static/css/main.a10d2e26.chunk.css",
+    "static/js/main.64a9dd1f.chunk.js"
+  ]
+}
