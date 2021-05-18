@@ -1,0 +1,95 @@
+/*APTITUDES*/
+.aptitudes{
+    display: flex;
+    background-image: url('../../assets/aptitudesImg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+}
+
+.apt__titleDiv{
+    width: 38%;
+    display: flex;
+    position: relative;
+}
+
+.aptitudes-div-title{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+}
+
+.raya{
+    width: 2%;
+    margin-left: 40px;
+    margin-right: 20px;
+    height: 100%;
+    background-color: #496074;
+}
+
+.apt__cards{
+    width: 50%;
+    margin-left: 40px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.651);
+    
+}
+
+.apt__card-title{
+    display: flex;
+    justify-self: center;
+}
+
+.apt__card-title h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+}
+
+.apt__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding-left: 130px;
+}
+
+.apt__icons i{
+    font-size: 70px;
+    margin-right: 10px;
+}
+
+.apt__icons .react{
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.apt__description{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.apt__description p{
+    color: rgb(59, 52, 52);
+    padding-top: 10px;
+}
+

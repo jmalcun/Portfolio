@@ -1,0 +1,140 @@
+/*ABOUT-ME*/
+.aboutme__box{
+    width: 100%;
+    //background-color: rgba(126, 30, 30, 0.877);
+    background-color: rgba(196, 191, 191, 0.233);
+    height: 100vh;
+}
+
+.aboutme__img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.aboutme__contenido{
+    position: absolute;
+    top: 3%;
+    overflow-x: hidden;
+}
+
+.aboutme__titulo{
+    margin: 0 auto;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    animation: opasidad 6s ease;
+    padding-bottom: 5px;
+}
+
+@keyframes opasidad{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.aboutme__front-desc{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 2px;
+}
+
+
+.aboutme__icons-div{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.aboutme__icons-div i{
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.aboutme__about-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.aboutme__description-me{
+    margin-top: 2px;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 8px;
+    box-shadow: 0px 1px 5px 0px;
+    animation: entrada 8s ease;
+}
+
+@keyframes entrada{
+    from{
+        transform: translateY(3500px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.aboutme__description-me p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(209, 200, 200);
+    font-weight: 600;
+    
+}
+
+.aboutme__description-me span{
+    color: white;
+    font-weight: bold;
+}
+
+.aboutme__css{
+    color: #2965f1;
+    
+}
+
+.aboutme__html{
+    color: #e44d26;
+    
+}
+
+.aboutme__js{
+    color: #f0db4f;
+    
+}
+
+.aboutme__react{
+    color: #61dafb;
+}
+
+.aboutme__flechas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    animation: animando 15s ease;
+}
+
+@keyframes animando{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}

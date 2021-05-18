@@ -1,0 +1,107 @@
+@media only screen and (min-width: 321px) and (max-width: 450px){
+    .apt-title{
+        border-top: none;
+        padding-top: 25px;
+    }
+
+    .navbar__home-link{
+        width: 22%;
+    }
+
+    .menuResponsive{
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: 85%;
+    }
+
+    .navbar__ul{
+        display: none;
+    }
+
+    .aboutme__contenido{
+        top: 0%;
+    }
+    
+    .aboutme__titulo{
+        margin-top: 0;  
+    }
+
+    .aboutme__flechas a{
+        display: none;
+    }
+
+    .aboutme__description-me {
+        width: 95%;
+       
+    }
+
+    .aboutme__description-me p{
+        font-size: 16px;
+    }
+
+    /*FORMACION ACADEMICA*/
+    .F-academica{
+        flex-direction: column;
+    }
+
+    /*APTITUDES*/
+    .aptitudes{
+        flex-direction: column;
+    }
+
+    .apt__titleDiv{
+        width: 100%;
+    }
+
+    .apt__cards{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .apt__card{
+        margin-bottom: 30px;
+    }
+
+    .apt__icons{
+        padding-left: 5px;
+    }
+
+    //PROYECTOS
+    .apt-title3{
+        width: 100%;
+        border-top: none;
+        padding-top: 25px;
+    }
+
+    .proyects-cards{
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .proyect__card{
+        margin-right: 0;
+        height: 200px;
+        width: 98%;
+    }
+
+    //CONTACTO
+    .contacto{
+        flex-direction: column;
+    }
+
+    .contacto-title-h1 {
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+}

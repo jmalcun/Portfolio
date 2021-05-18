@@ -1,0 +1,82 @@
+/*NAVBAR*/
+.navbar{
+    display: none;
+    width: 100%;
+    height: 70px;
+    background: #DCE4F2;
+    box-shadow: 0px 0px 5px 0.2px;
+    position: relative;
+}
+
+.menuResponsive{
+    display: none;
+}
+
+.navbar__home-link{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.navbar__navbar-links{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar__jm{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 35px;
+    color: grey;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.navbar__ul{
+    display: flex;
+    justify-content: space-around;
+    width: 58%;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar__ul__responsive{
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: darkgrey;
+    padding-left: 15px;
+    list-style: none;
+    animation: movimiento 0.8s ease;
+}
+
+@keyframes movimiento {
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.navbar__link{
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Imbue', serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: grey;
+    transition: all 140ms;
+    
+}
+
+.navbar__link:hover{
+    color: rgb(167, 167, 201);
+    transform: scale(1.2,1.2);
+    font-weight: 600;
+}
+

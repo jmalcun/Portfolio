@@ -1,0 +1,141 @@
+/*PROYECTS*/
+.proyects{
+    background-color: #496074;
+    overflow: hidden;
+}
+
+.proyects-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.proyect__card{
+    text-align: center;
+    width: 580px;
+    height: 290px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.proyect__card:hover{
+    transform: translateY(-2%);
+    box-shadow: 0px 2px 5px 2px;
+    transition: 2s all ease;
+}
+
+.proyect__card-img{
+    width: 100%;
+    height: 100%;
+}
+
+.proyect__card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.proyect__interaccion-u{
+    visibility: hidden;
+}
+
+.proyect__card:hover .proyect__interaccion-u{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 252, 252, 0.582);
+    animation: opacidad 1.5s ease;
+}
+
+@keyframes opacidad{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.proyect__card:hover .proyect__details{
+    animation: izquierda 1.5s ease;
+}
+
+@keyframes izquierda{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.proyect__card:hover .proyect__go-page{
+    animation: derecha 1.5s ease;
+}
+
+@keyframes derecha{
+    from{
+        transform: translateX(70%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.proyect__card h2{
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+}
+
+.proyect__card:hover h2{
+    animation: upp 1.5s ease;
+}
+
+@keyframes upp{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.proyect__details{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(67, 148, 175);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.proyect__go-page{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(22, 139, 22);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+}
+
+.proyect__card i{
+    margin-right: 5px;
+    font-size: 16px;
+}

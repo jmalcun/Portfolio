@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+
+.css{
+    color: #2965f1;
+    
+}
+
+.html{
+    color: #e44d26;
+    
+}
+
+.js{
+    color: #f0db4f;
+    
+}
+
+.react{
+    color: #61dafb;
+}
+
+.animation1{
+    animation: leftAnimation 2s ease;
+}
+
+@keyframes leftAnimation{
+    from{
+        transform: translateY(40%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.pdf{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.apt-title{
+    font-family: 'Coda Caption', sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px;
+    color: rgb(167, 167, 201);
+    margin-top: 55px;
+    padding-top: 50px;
+    border-top: 5px solid #edebcf;
+    padding-left: 75px;
+}
+
+.apt-title2{
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px;
+    color: rgb(167, 167, 201);
+    padding-top: 50px;
+}
+
+.apt-title3{
+    font-family: 'Coda Caption', sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px;
+    color: rgb(167, 167, 201);
+    padding-top: 50px;
+    padding-left: 78px;
+    border-top: 5px solid #edebcf;
+    margin-top: 55px;
+    width: 40%;
+}
+
+.animado{
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.animado2{
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.animado3{
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.animado4{
+    opacity: 0;
+    transition: all 2s ease; 
+}
+
+.animado5{
+    opacity: 0;
+    transition: all 2s ease; 
+}
+
+.animado6{
+    opacity: 0;
+    transition: all 2s ease; 
+}
+
+.animado7{
+    opacity: 0;
+    transition: all 2s ease; 
+}
+
+.visibiliti-hidden{
+    visibility: hidden;
+}
+
