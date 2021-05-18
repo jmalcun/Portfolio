@@ -95,6 +95,7 @@ export const HomeScreen = () => {
                     let alturaAnimado2 = elemento2.offsetTop;
                     if(alturaAnimado2 - 650 < scrollTop){
                         elemento2.className = "apt__description animate__animated animate__fadeOutRight animate__slow"
+                        elemento2.classList.add("visibiliti-hidden")
                     }
                     if(alturaAnimado2 - 550 < scrollTop){
                         elemento2.className="apt__description animate__animated animate__fadeInRight animate__slower" 
@@ -123,6 +124,7 @@ export const HomeScreen = () => {
                     let alturaAnimado4 = elemento4.offsetTop;
                     if(alturaAnimado4 - 650 < scrollTop){
                         elemento4.className = "apt__icons animate__animated animate__fadeOutLeft animate__slow"
+                        elemento4.classList.add("visibiliti-hidden")
                     }
                     if(alturaAnimado4 - 550 < scrollTop){
                         elemento4.style.opacity = 1;
