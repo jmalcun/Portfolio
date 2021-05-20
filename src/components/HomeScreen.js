@@ -8,6 +8,8 @@ import {Contacto} from './Contacto'
 
 export const HomeScreen = () => {
     
+    let ancho = window.screen.width
+    
     //ANIMACIONES SCROLL
     useEffect(() => {
         let animado = document.querySelectorAll(".animado") 
@@ -18,17 +20,16 @@ export const HomeScreen = () => {
         let animado6 = document.querySelectorAll(".animado6") 
         let animado7 = document.querySelectorAll(".animado7") 
 
-        let ancho = document.body.clientWidth
-       
+        
+        
         const mostrarScroll = () => {
             let scrollTop = document.documentElement.scrollTop;
             if(ancho < 450){
                 animado.forEach( elemento => {
-                    let alturaAnimado = elemento.offsetTop;
-                    if(alturaAnimado - 550 < scrollTop){
-                        elemento.style.opacity = 1;
-                        elemento.className = "F-academica__card-grid animate__animated animate__fadeInRight animate__slower"
-                    }
+                    
+                    elemento.style.opacity = 1;
+                    elemento.className = "F-academica__card-grid animate__animated animate__fadeInRight animate__slower"
+                    
                 })
                 animado2.forEach( elemento2 => {
                     let alturaAnimado2 = elemento2.offsetTop;
@@ -37,11 +38,10 @@ export const HomeScreen = () => {
                     }
                 })
                 animado3.forEach( elemento3 => {
-                    let alturaAnimado3 = elemento3.offsetTop;
-                    if(alturaAnimado3 - 550 < scrollTop){
-                        elemento3.style.opacity = 1;
-                        elemento3.className ="apt-title animate__animated animate__fadeInLeft animate__slower "    
-                    }
+                   
+                    elemento3.style.opacity = 1;
+                    elemento3.className ="apt-title animate__animated animate__fadeInLeft animate__slower "    
+                    
                 })
                 animado4.forEach( elemento4 => {
                     let alturaAnimado4 = elemento4.offsetTop;
